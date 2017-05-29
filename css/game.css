@@ -10,6 +10,7 @@
 }
 @media only screen and (min-width: 700px) {
 	.header-row img {
+		margin: 6px;
 		width: 34px;
 		height: 27px;
 	}
