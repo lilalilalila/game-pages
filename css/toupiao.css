@@ -1,0 +1,167 @@
+
+body {
+	background-color: #29bde0;
+}
+
+/*顶部样式*/
+.header-nav {
+	background-color: #29bde0;
+}
+
+.header-row1 {
+	display: flex;
+	align-items: center;
+	
+	color: #FFFFFF;
+}
+
+.header-row1 img {
+	width: 25px;
+	height: 25px;
+}
+@media only screen and (min-width: 700px) {
+	.header-row1 img {
+		width: 36px;
+		height: 36px;
+	}	
+}
+
+.header-row1 h4 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	
+	font-size: 1.6rem;
+}
+@media only screen and (min-width: 700px) {
+	.header-row1 h4 {
+		font-size: 2.1rem;
+	}
+}
+
+.header-row2 {
+	background-color: #b9e9f5;
+}
+
+.header-row2 p {
+	margin-left: -15px;
+	margin-bottom: 0;
+	
+	font-size: 1.2rem;
+	line-height: 3.6rem;
+}
+
+.header-row2 img {
+	margin: 3px 0 ;
+	
+	width: 30px;
+	height: 30px;
+}
+
+.header-row-3 {
+	background-image: url(../img/发言讨论结束，投票_01_10_03.gif);
+	background-repeat: no-repeat;
+	background-position: 12% 0;
+	background-size: 10px;
+}
+.header-row-3 p {
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-size: 1.1rem;
+	color: #FFFFFF;
+}
+
+
+/*主体样式*/
+.main-content {
+	margin-top: 90px;
+	margin-bottom: 80px;
+}
+
+.main-row {
+	display: flex;
+	justify-content: space-between;
+	
+	margin-top: 2%;
+}
+
+.main-row1 {
+	display: block;
+	
+	border: 2px solid #ffffff;
+}
+.main-identity {
+	padding: 28% 0;
+	
+	background-color: #f5c97b;
+}
+
+.main-identity p {
+	margin-bottom: 0;
+	
+	font-size: 1.6rem;
+}
+
+.main-number {
+	background-color: #83b09a;
+}
+
+.main-number p{
+	margin-bottom: 0;
+	
+	font-size: 1.2rem;
+	
+	color: #ffffff;
+}
+
+.main-img {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-img img {
+	margin-top: 10%;	
+	width: 16px;
+	height: 16px;
+		
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+@media only screen and (min-width: 500px) {
+	.main-img img {
+	margin-top: 20px;	
+	width: 16px;
+	height: 16px;
+	}
+	
+}
+
+.main-inner {
+	display: block;
+	
+	margin-top: 8px;
+}
+
+.main-inner:hover img {
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
+
+
+/*底部样式*/
+.footer-content {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #29BDE0;
+}
+
+.footer-content p {
+	margin: 7px auto;
+	
+	font-size: 2.2rem;
+	
+	color: #ffffff;
+}
+
+.footer-inner {
+	background-color: #fbb435;
+}

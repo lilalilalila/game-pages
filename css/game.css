@@ -1,0 +1,115 @@
+
+.header-row {
+	background-color: #29bde0;
+}
+
+.header-row img {
+	margin: 3%;
+	width: 17px;
+	height: 13.5px;
+}
+@media only screen and (min-width: 700px) {
+	.header-row img {
+		width: 34px;
+		height: 27px;
+	}
+}
+
+
+.main-content {
+	background-color: #f0f0f0;
+}
+
+.main-top-content {
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	border: 1px solid #c9c9c9;
+	background-color: #ffffff;
+	background-image: url(../img/首页_07.png);
+	background-repeat: no-repeat;
+	background-position: 97%;
+	background-size: 12px 20px;
+}
+
+.main-top-content p {
+	display: inline-block;
+	
+	font-size: 1.5rem;
+	font-weight: 400;
+	
+	color: #9a9a9a;
+}
+
+
+.main-bottom {
+	margin-bottom: 20px;
+	
+	background-color: #f0f0f0;
+}
+
+.main-bottom-border {
+	border: 1px solid #c9c9c9;
+	background-color: #ffffff;
+	background-image: url(../img/首页_11.png);
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+	background-position-x: 97%;
+	background-size: 15px;
+}
+
+.row1 {
+	padding-top: 10px;
+	
+	font-size: 1.8rem;
+	
+	color: #fbb435;
+	border-bottom: 1px solid #fbb435;
+}
+
+.fangkuai-content {
+	margin-top: 0;
+	padding: 15px 0;
+	
+	color: #ffffff;
+	background-color: #69d1e9;
+}
+
+.fangkuai-content p {
+	margin-bottom: 0;
+	
+	font-size: 1.6rem;
+}
+
+.row2 {
+	padding-top: 10px;
+	
+	font-size: 1.2rem;
+	
+	color: #787878;
+}
+
+.row3 {
+	padding-top: 15px;
+}
+
+.row3 a {
+	text-decoration: none;
+}
+
+.carousel-content {
+	padding-bottom: 25px;
+}
+
+.carousel-content ol {
+	margin-bottom: 0;
+}
+
+.carousel-content li {
+	background-color: #e7e7e7;
+}
+
+.carousel-indicators .active {
+	background-color: #69D1E9;
+}
